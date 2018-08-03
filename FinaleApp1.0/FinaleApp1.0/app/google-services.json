@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1018191375690",
+    "firebase_url": "https://gridv3.firebaseio.com",
+    "project_id": "gridv3",
+    "storage_bucket": "gridv3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018191375690:android:848a207d5aea4f05",
+        "android_client_info": {
+          "package_name": "com.example.hlarbi.app3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018191375690-bd13ee08tcfq2sdtm12tduj4coiholvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hlarbi.app3",
+            "certificate_hash": "50eeee4c6f2ff25a24c9eb3cdd12660389508fd1"
+          }
+        },
+        {
+          "client_id": "1018191375690-12pf6k795pq4j0d12qmdomcem9ffm5d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfhIqOUygtgLTIxNxZJdi6nN2VjNDyVZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018191375690-12pf6k795pq4j0d12qmdomcem9ffm5d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

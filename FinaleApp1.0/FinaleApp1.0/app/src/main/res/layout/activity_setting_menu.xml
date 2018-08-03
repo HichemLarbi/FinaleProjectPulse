@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65"
+        android:orientation="horizontal">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="114dp"
+            android:layout_height="95dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/profilphoto" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/line">
+
+        <Button
+            android:id="@+id/buttondate"
+            android:layout_width="92dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_intro"
+            android:cursorVisible="false"
+            android:text="Antoine"
+            android:fontFamily="@font/smoothfont"/>
+    </RelativeLayout>
+   <!-- <ListView
+        android:id="@+id/list_view_data_resume"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/trans_white_rectangle"></ListView>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview_profile"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:numColumns="2"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="6dp"
+        android:background="@drawable/trans_white_rectangle"
+        ></android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

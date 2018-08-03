@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <View
+        android:id="@+id/view_item_background"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <ImageView
+        android:id="@+id/imageView_item"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-74dp"
+        android:layout_toStartOf="@+id/textView_subject_item"
+        app:srcCompat="@drawable/icon_steps"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView_subject_item"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:text="steps"
+        android:textSize="28sp"
+        app:fontFamily="@font/smoothfont"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView_unity_item"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="unity"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textView_number_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_unity_item"
+        android:text="15005"
+        android:textSize="28sp"
+        app:fontFamily="@font/smoothfont"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="38dp" />
+</RelativeLayout>

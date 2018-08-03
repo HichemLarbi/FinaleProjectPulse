@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_pollu"
+        android:icon="@drawable/pollution_logo_layout"
+        android:title="Pollution" />
+
+    <item
+        android:id="@+id/navigation_run"
+        android:icon="@drawable/icon_run"
+        android:title="Activity" />
+
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/user"
+        android:title="Profile"/>
+
+</menu>
