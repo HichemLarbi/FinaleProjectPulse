@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/line_downitem"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/item_main_rela_lay"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/imageView_item_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/icon_steps" />
+
+        <TextView
+            android:id="@+id/textView_subject_item_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/smoothfont"
+            android:text="Steps"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_number_item"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="29dp"
+            android:fontFamily="@font/smoothfont"
+            android:text="8492"
+            android:textSize="36dp" />
+
+       <!-- <TextView
+            android:id="@+id/textView_unity_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="19dp"
+            android:fontFamily="@font/smoothfont"
+            android:text="unity" />-->
+
+    </RelativeLayout>
+</RelativeLayout>

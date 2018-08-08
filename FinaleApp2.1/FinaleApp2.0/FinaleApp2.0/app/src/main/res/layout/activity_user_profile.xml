@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewClasses.UserProfileSettings"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:background="@drawable/my_bg_anim">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/userinfo"
+            android:layout_centerHorizontal="true"/></RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="0.75"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="Family name"
+                android:imeOptions="actionUnspecified"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@android:color/white" />
+            <EditText
+                android:id="@+id/nickname_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="Firsname"
+                android:imeOptions="actionUnspecified"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/age_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="Your Age (example : 18)"
+                android:imeOptions="actionUnspecified"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="@android:color/white" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="?attr/editTextBackground">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Gender   "
+                    android:text="Gender"
+                    android:textColor="@color/trans_white3"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                    />
+                <Spinner
+                    android:id="@+id/spinner_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:foregroundGravity="center"
+                    ></Spinner></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="?attr/editTextBackground">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Your City"
+                    android:text="Your City"
+                    android:textColor="@color/trans_white3"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                    />
+                <Spinner
+                    android:id="@+id/spinner_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:foregroundGravity="center"
+                    ></Spinner>
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="@android:color/white" />
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="Password"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm"
+        android:text="Save"
+        android:fontFamily="@font/smoothfont"
+        android:background="@drawable/btn_intro"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:text="back"
+        android:fontFamily="@font/smoothfont"
+        android:background="@drawable/bg_null"/>
+</LinearLayout>

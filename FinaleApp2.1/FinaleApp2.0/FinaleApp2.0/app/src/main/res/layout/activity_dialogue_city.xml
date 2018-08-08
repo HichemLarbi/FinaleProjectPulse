@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewClasses.DialogueCitybis"
+    android:background="@drawable/btn_intro">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select other city"
+        android:fontFamily="@font/smoothfont"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:id="@+id/select_your_city"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/select_your_city">
+
+        <Button
+            android:id="@+id/Barcelonabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_null"
+            android:fontFamily="@font/smoothfont"
+            android:text="Barlona" />
+
+        <Button
+            android:id="@+id/Birminghambtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Barcelonabtn"
+            android:background="@drawable/bg_null"
+            android:fontFamily="@font/smoothfont"
+            android:text="Birmingham" />
+
+        <Button
+            android:id="@+id/NewYorkCitybtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Birminghambtn"
+            android:background="@drawable/bg_null"
+            android:fontFamily="@font/smoothfont"
+            android:text="New York City" />
+
+        <Button
+            android:id="@+id/Parisbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/NewYorkCitybtn"
+            android:background="@drawable/bg_null"
+            android:fontFamily="@font/smoothfont"
+            android:text="Paris" />
+
+        <Button
+            android:id="@+id/Singaporebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Parisbtn"
+            android:background="@drawable/bg_null"
+            android:fontFamily="@font/smoothfont"
+            android:text="Singapore" />
+    </RelativeLayout>
+</RelativeLayout>

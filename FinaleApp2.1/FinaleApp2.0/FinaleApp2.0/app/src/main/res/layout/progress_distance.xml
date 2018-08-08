@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trans_white_rectangle">
+
+    <TextView
+        android:id="@+id/distance_goal_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/distance_goal_text_id"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/smoothfont"
+        android:gravity="center"
+        android:text="Distance Goal"
+        android:textColor="#007DD6"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/distance_goal_text_id" />
+
+
+    <TextView
+        android:id="@+id/distance_goal_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/smoothfont"
+        android:gravity="center"
+        android:text="67"
+        android:textColor="#4a7299"
+        android:textSize="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/distance_goal_text_id"
+        android:layout_toEndOf="@+id/distance_goal_text_id"
+        android:text="%"
+        android:textColor="#4a7299"
+        android:textSize="15sp"
+        custom:ignore="MissingConstraints"
+        custom:layout_editor_absoluteX="239dp"
+        custom:layout_editor_absoluteY="270dp"
+        android:layout_toRightOf="@+id/distance_goal_text_id" />
+
+
+    <ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="349dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:max="140"
+        android:progress="100"
+        android:progressDrawable="@drawable/circle_background"
+        android:rotation="143"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/progress_distance_id"
+        style="?android:progressBarStyleHorizontal"
+
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:max="140"
+        android:progress="67"
+        android:progressDrawable="@drawable/circle"
+        android:rotation="233"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    </ProgressBar>
+
+
+
+
+</RelativeLayout>

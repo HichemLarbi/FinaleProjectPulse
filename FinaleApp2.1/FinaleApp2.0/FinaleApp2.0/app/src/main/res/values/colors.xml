@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#354254</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="bleu">#34495E</color>
+<!--Animation color linechart pollution-->
+
+    <color name="zero">#00ffffff</color>
+
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_100">#F5F5F5</color>
+    <!-- COntrol interline color if tep to transpa, there will be no more interlines -->
+    <color name="gray_200">#940f0f</color>
+    <!---->
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+
+    <color name="gray">#f4f2ee</color>
+    <color name="light_blue">#b2ccde</color>
+    <color name="blue">#6dbef4</color>
+
+    <!--Transparente colors-->
+    <color name="color_transpa">#0effffff</color>
+    <color name="trans_white1">#12ffffff</color>
+    <color name="trans_white2">#42ffffff</color>
+    <color name="trans_white3">#8effffff</color>
+    <color name="trans_white4">#d0ffffff</color>
+    <color name="blue5transp">#a2002448</color>
+    <color name="blue3trans">#a201a8d2</color>
+    <color name="bleutransp">#a434495e</color>
+    <!-- Paltette de Couleur Bleu Style Sky-->
+
+    <color name="blue1">#9bd4e7</color>
+    <color name="blue2">#87c0eb</color>
+    <color name="blue3">#01a8d2</color>
+    <color name="blue4">#0089b4</color>
+    <color name="blue5">#002448</color>
+
+    <!--Palette style June-->
+
+    <color name="june1">#fee203</color>
+    <color name="june2">#ffb30f</color>
+    <color name="june3">#38d8f8</color>
+    <color name="june4">#5996e4</color>
+    <color name="june5">#3191bb</color>
+
+    <!--Basic Color-->
+    <color name="redgrad">#cf3313</color>
+    <color name="bleugrad">#00355b</color>
+</resources>
